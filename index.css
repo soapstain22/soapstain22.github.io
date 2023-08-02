@@ -1,0 +1,14 @@
+body {
+	background-color: lightblue;
+	background: #fff url(/img/dirt.jpg) center center/auto repeat fixed;
+  }
+  
+  h1 {
+	color: white;
+	text-align: center;
+  }
+  
+  p {
+	font-family: verdana;
+	font-size: 20px;
+  }
