@@ -1,87 +1,102 @@
-*{
+* {}
+
+.navbar {
+	position: fixed;
+	overflow: hidden;
+
 }
-.navbar{
-  position: fixed;
-  overflow: hidden;
-  
-}
+
 ul {
-  list-style-type: none;
-  margin: 1px;
-  padding: 14px;
-  background-color: #dddddd;
+	list-style-type: none;
+	margin: 1px;
+	padding: 14px;
+	background-color: #dddddd;
 
 }
-li{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  list-style-type: none;
-  width:100%;
-  margin: 0px;
-  padding: 9px;
-  outline: auto;
-  display:inline;
+
+li {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	list-style-type: none;
+	width: 100%;
+	margin: 0px;
+	padding: 9px;
+	outline: auto;
+	display: inline;
 }
+
 li a {
-  border: 2in;
-  
-}
-.row {
-  width: 2%;
-  padding: 25%;
-  border: 15px solid #000000;
-  outline-style: dashed;
-  outline-color: green;
-  margin: auto;
-  }
-h1{
-  color: green;
-  margin: auto;
-  font-size: xx-large;
-  padding:10px 10px;
-  background-color: peachpuff;
-  outline: auto;
+	border: 2in;
 
 }
-h1:hover{
-  color:blueviolet
+
+.row {
+	width: 2%;
+	padding: 25%;
+	border: 15px solid #000000;
+	outline-style: dashed;
+	outline-color: green;
+	margin: auto;
 }
-html{
-  background-color: grey;
+
+h1 {
+	size: 48px;
+	color: green;
+	margin: auto;
+	font-size: xx-large;
+	padding: 10px 10px;
+	background-color: peachpuff;
+	outline: auto;
+
 }
-body{
-  box-sizing: border-box;
-  font-family:Arial, Helvetica, sans-serif;
-  text-shadow: 1cm;
-  text-justify: auto;
-  outline:5px;
-  border: 2px;
-  margin: 1px;
-  border-radius: 4px;
-  border-style: groove;
+
+h1:hover {
+	color: blueviolet
 }
+
+html {
+	background-color: grey;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 1cm;
+	text-justify: auto;
+	outline: 5px;
+	border: 2px;
+	margin: 1px;
+	border-radius: 4px;
+	border-style: groove;
+}
+
 .column {
-  width: 30%;
-  float:left;
-  padding: 10px;
-  margin-left: auto;
-  align-self: center;
-  outline: auto;
+	width: 50%;
+	float: left;
+	padding: 10px;
+	outline: auto;
 }
+
 .side {
-  float: left;
-  padding: 10px;
-  margin-left: auto;
-  align-self: center;
-  color: green;
-  width: fit-content;
+	width: 10%;
+	padding: 10px;
+	align-self: center;
+	color: green;
+	width: fit-content;
+	float:initial;
+	
 }
+
 .side.r {
-  color: red;
-  padding: 10px;
-  float: right;
-  width: fit-content;
+	color: red;
+	float: left;
+	width: 20%;
+	flex-direction: row;
+
 }
+
 .side.l {
-  color: blue;
-  float: left;
+	color: blue;
+	float: left;
+	width: 20%;
+
 }
