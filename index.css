@@ -93,6 +93,7 @@ body {
 	width: 50%;
 	float: left;
 	padding: 10px;
+	margin: auto;
 	align-content: stretch;
 	align-self: auto;
 	outline: auto;
