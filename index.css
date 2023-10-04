@@ -23,6 +23,7 @@ ul {
 
 dd {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:large;
 }
 
 dd a {
@@ -41,9 +42,7 @@ h1 {
 	color: black;
 	margin: auto;
 	text-align: center;
-
 	font-size: xx-large;
-	background-color: liner-gradient(45deg, lightgrey, white, silver);
 	padding: 12px;
 
 }
@@ -51,19 +50,12 @@ h1 {
 header {
 	padding: 10px;
 	margin: 4px;
-	background-color: liner-gradient(45deg, grey, dimgrey, darkgrey);
 }
 
 h2 {
 
 	margin: auto;
 	font-size: xx-large;
-	background-color: slategray;
-}
-
-html {
-	background-color: liner-gradient(90deg, black, white, silver);
-
 }
 
 body {
@@ -72,39 +64,44 @@ body {
 }
 
 .column {
-	background-color: blanchedalmond;
-	outline: outset, burlywood, 4px;
+	background-color: antiquewhite;
+	outline: outset antiquewhite 4px;	padding: 10px;
 	width: 50%;
-	justify-self: center;
-	justify-content: center;
-	display: inline;
-	flex-direction: row;
-
-
-
+	margin: auto;
+	display:flex;
+	flex: auto	;
+	
 }
 
 .content {
-	flex-direction: row;
+	
+	width: 50%;
+	margin: auto;
 	display: block;
+	flex:auto;
+	padding: 20%;
+	
 }
 
 
 
 .column.r {
-	color: red;
-	float: right;
-	width: 20%;
-
-
-}
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	background-color: antiquewhite;
+	outline: outset antiquewhite 4px;	padding: 10px;
+	float: left;
+  }
 
 .column.l {
-	color: blue;
-	float: left;
-	width: 20%;
-
-}
+	position: absolute;
+	left: 0px;
+	width: 300px;
+	background-color: antiquewhite;
+	outline: outset antiquewhite 4px;	padding: 10px;
+	float: right;
+  }
 
 .footer-basic {
 	padding: 40px 0;
