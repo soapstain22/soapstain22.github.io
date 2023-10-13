@@ -90,29 +90,25 @@ body {
 }
 
 .column {
-	width: 50%;
-	float: left;
-	padding: 10px;
-	margin: auto;
-	align-content: stretch;
-	align-self: auto;
-	outline: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	
 }
 
 .side {
+	display: block;
 	width: 10%;
 	padding: 10px;
-	align-self: center;
-	width: auto;
-	float: right;
+
 
 }
 
 .side.r {
 	color: red;
-	float: left;
+	float: right;
 	width: 20%;
-	flex-direction: row;
 
 }
 
@@ -122,3 +118,27 @@ body {
 	width: 20%;
 
 }
+.column {
+	float: left;
+	margin: 0.1%;
+	background-color: gainsboro;
+	outline: slategrey auto;
+	padding: 0.4%;
+  }
+  
+  /* Left and right column */
+  .column.side {
+	width: 20%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+	width: 57%;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column.side, .column.middle {
+	  width: 100%;
+	}
+  }
