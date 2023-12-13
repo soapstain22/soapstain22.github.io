@@ -159,3 +159,10 @@ object {
     width: -webkit-fill-available;
     height: 600px;
 }
+.img {
+    display: flex;
+	
+}
+.brick {
+    margin: 10px;
+}
