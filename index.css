@@ -53,10 +53,12 @@ h1 {
 
 }
 
-header {
+.project header {
 	padding: 10px;
 	outline: auto;
-	/* margin: 4px; */
+	margin: 5px;
+	color: silver;
+	background: linear-gradient(45deg, black, #1e8300);
 }
 
 h2 {
@@ -165,4 +167,30 @@ object {
 }
 .brick {
     margin: 10px;
+}
+.flexproj {
+    /* width: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* height: 400px; */
+    align-items: flex-start;
+    background: radial-gradient(black, #570000);
+}
+
+img {width: 30vh;height: 30vh;}
+
+.project {
+    width: 30vh;
+    height: 42vh;
+    padding: 9px;
+    margin: 10px;
+    background: radial-gradient(#ff2e2e, #a20000);
+    border: red 3px solid;
+}
+
+.project p {
+    margin: 10px;
+    background: linear-gradient(220deg, black, #fff4f4);
+    padding: 10px;
 }
