@@ -33,6 +33,10 @@ li a {
 	border: 6px;
 
 }
+iframe{
+	margin:auto;
+	display:block;
+}
 
 .row {
 	width: 2%;

@@ -1,0 +1,31 @@
+Skill 1 Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 3 Dual Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 4 Double Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 5 Triple Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 8 Slap: Damage Formula: a.atk * 9 - b.def * 4
+Skill 9 Soda Throw: Damage Formula: 0 + a.atk * 2 - b.def * 1
+Skill 10 Spit: Damage Formula: a.atk * 3 - b.def * 2
+Skill 11 Sack Tap: Damage Formula: 0 + a.atk * 1.6 - b.def * 0.8
+Skill 12 Dust Kick: Damage Formula: a.atk * 3 - b.def * 2
+Skill 13 Scream: Damage Formula: a.atk * 5 - b.def * 2
+Skill 16 wedgie: Damage Formula: a.atk * 5 - b.def * 2
+Skill 17 Sue: Damage Formula: a.mat * 4 - b.mdf * 2
+Skill 18 filibuster: Damage Formula: 0 + a.mat * 0.1 - b.mdf * 0.1
+Skill 19 soda slam: Damage Formula: 0 + a.atk * 2.8 - b.def * 1.4
+Skill 21 Bad word: Damage Formula: 0 + a.mat * 6.8 - b.mdf * 4.8
+Skill 22 Hickey: Damage Formula: 0 + a.atk * 0.8 - b.def * 0.4
+Skill 23 south amethanan ninja warrior: Damage Formula: a.def * 5 - b.def * 2
+Skill 24 weird take: Damage Formula: 0 + a.mat * 0.6 - b.mdf * 0.6
+Skill 25 alienate: Damage Formula: 0 + a.mat * 0.6 - b.mdf * 0.6
+Skill 27 weird little sound: Damage Formula: 0 + a.mat * 0.06 - b.mdf * 0.06
+Skill 32 libel: Damage Formula: 0 + a.mat * 2.4 - b.mdf * 2.4
+Skill 34 PEBBER SPREY: Damage Formula: 0 + a.atk * 0.8 - b.def * 0.4
+Skill 35 cigarette throw: Damage Formula: 0 + a.atk * 0.8 - b.def * 0.4
+Skill 36 akward conversation: Damage Formula: 20 + a.mat * 1.2 - b.mdf * 1.2
+Skill 37 read rights: Damage Formula: 20 + a.mat * 0.8 - b.mdf * 0.8
+Skill 39 ask to hold hands: Damage Formula: 20 + a.mat * 1.2 - b.mdf * 1.2
+Skill 41 The game: Damage Formula: 0 + a.mat * 10 - b.mdf * 2
+Skill 44 steal nose: Damage Formula: 0 + a.mat * 0.24 - b.mdf * 0.24
+Item 25 Grape Soda: Damage Formula: a.mhp * 0.25
+Item 35 Mazel Tov Cocktail: Damage Formula: 24 + a.atk * 2.28 - b.def * 1.14
+Item 45 potato chip: Damage Formula: 0 + a.atk * 0.4 - b.def * 0.2

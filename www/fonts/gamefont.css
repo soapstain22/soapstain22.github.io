@@ -1,0 +1,15 @@
+@font-face {
+    font-family: GameFont;
+    src: url("COMIC.TTF");
+}
+@font-face {
+    font-family: CrazyFont;
+    src: url("m-c-kids-nes-credits-font.ttf");
+}
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+    image-rendering: crisp-edges;
+}
